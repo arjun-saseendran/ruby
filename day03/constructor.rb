@@ -10,15 +10,16 @@ class People
     
   end
   def display_name
-    print('Name is: ',@name) 
+    # String interpolation
+    print "Name is: #{@name}"
   end
   
   def display_age
-  print('Age is: ',@age)
+    print "Age is: #{@age}"
   end
   
   def display_place
-  print('Place is ',@place)
+    print "Place is #{@place}"
   end
   
 end
