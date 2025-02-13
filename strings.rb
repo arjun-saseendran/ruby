@@ -10,4 +10,9 @@ puts name.upcase
 puts name.downcase
 puts name.reverse.upcase
 puts name.class
+puts 'It\'s you!'
+
+name = 'Ruby'
+puts "My name is #{name}"
+
 
