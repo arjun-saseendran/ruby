@@ -44,3 +44,21 @@ colors_array = colors.split('')
   colors_array << first
   puts colors_array.join
 end
+
+colors_array.each_index do |i|
+  if colors_array[i] == '/'
+    colors_array[i] = '\\'
+  end 
+end 
+
+puts colors_array.join
+
+halfway.upto(lines) do |n|
+  last = colors_array.pop
+  colors_array.unshift(last)
+  puts colors_array.join 
+end
+
+
+
+
